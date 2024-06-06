@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+  <style>
+    body{
+   background-color:#4dc3ff;
+    }
+    button{
+      width: 400px;
+      height: 45px;
+      border-radius: 2rem;
+      color: #FFFFFF;
+      background-color: #4dc3ff;
+      outline: none;
+      border: none;
+      display: block;
+      margin: auto;
+    }
+h1{text-align: center;
+color:#4dc3ff ;
+}
+h5{text-align: center;
+font-family: sans-serif;
+font-weight: 100;
+}
+p{ font-family: sans-serif;
+}
+.input-container{
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #333333;
+  margin-bottom: 3rem;
+}
+.input-container-a{
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #333333;
+  margin-bottom: 1rem;
+}
+.input-item{
+  outline: none;
+      border: none;
+      width: 100%;
+}
+.input-item::placeholder{
+color: #666666;
+}
+.remember{
+  color: #666666;
+}
+.sign{
+  color: #4dc3ff;
+  text-decoration: none;
+}
+  </style>
+<div style= "height: 450px; width: 450px; margin: auto; border-radius: 100px 1px;  padding: 50px; background-color: #FFFFFF;">
+  
+  <div>
+    <h1> <strong> Welcome Back </strong> </h1>
+    <br>
+    <br>
+    <div class="input-container">
+  <input class="input-item" placeholder="Username" type="text" id="username"> </input>
+    </div>
+    <div class="input-container-a">
+      <input class="input-item" placeholder="Password" type="text" id="password"> </input>
+        </div>
+  <input name="Remember me" type="checkbox" id="checkboxid"></input>
+    <label class="remember" for="checkbox"> Remember me</label>
+    <br>
+    <br>
+    <div>
+    <button type="submit"> Login</button>
+    </div>
+    <br>
+    <h5> Don't have an account? <a href="a" class="sign">Sign up</a> </h5>
+    </div>
+</body>
+</html>
